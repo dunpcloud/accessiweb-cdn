@@ -311,6 +311,7 @@ button#acsw__clsw {
     margin: 0 auto 2% auto;
     float: left;
 }
+#acsw__voice{width: 15%; text-align: center; border: 2px dotted var(--primary-color);}
 .acsw__rnge > span, .acsw__rnge3 > span, #ascw__reset, #ascw__doc, #ascw__doc > span, #acsw__language, #acsw__voice, .acsw__btn > span, .acsw__btn3 > span, .acsw__swco > span {
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: 16px !important;!i;!;
