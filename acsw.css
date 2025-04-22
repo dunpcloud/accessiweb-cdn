@@ -217,7 +217,7 @@ button#acsw__clsw {
 .acsw__main {
     padding: 10px;
     color: var(--dark-color);
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
     overflow-y: auto;
     height: 100%;
@@ -267,7 +267,7 @@ button#acsw__clsw {
     margin: 0 auto 15px;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
     padding: 10px;
-    width: 100%;
+    max-width: 100%;
 }
 .acsw__main > section > p {
     font-family: Arial,Helvetica,sans-serif !important;
@@ -296,7 +296,7 @@ button#acsw__clsw {
     font-family: Arial, Helvetica, sans-serif !important;
     width: 100%;
     background: var(--white-color);
-    height: 50px;
+    max-height: 50px;
     text-align: left;
     color: var(--dark-color);
     display: flex;
@@ -305,7 +305,7 @@ button#acsw__clsw {
     flex-wrap: nowrap;
     font-weight: bold;
     padding: 10px;
-	border:1px solid var(--white-color);
+    border:1px solid var(--white-color);
     border-radius: 10px;
     margin-bottom: 15px;
     margin: 0 auto 2% auto;
