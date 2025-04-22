@@ -446,9 +446,9 @@ input:checked + .acsw__sldr:before {
     justify-content: center;
     -webkit-appearance: none;
     cursor: pointer;
-    background: var(--white-color);
-    border-radius: 12px;
-    border: none;
+    background: var(--white-color) !important;
+    border-radius: 12px !important;
+    border: none !important;
     padding: 13px 0 14px 0;
     font-weight: bold;
     font-size: 16px;
@@ -522,7 +522,7 @@ input#blueFilterIntensity[type='range'] {
 
 #acsw__widget .acsw__btn3:hover, #acsw__widget .acsw__btn3:focus {border:1px solid var(--primary-color) !important;outline:1px solid var(--primary-color) !important;border-radius:10px;background-color:var(--white-color) !important;}
 
-#acsw__widget .acsw__active > button {background:var(--primary-color);color:var(--white-color);}
+#acsw__widget .acsw__active > button {background:var(--primary-color) !important;color:var(--white-color) !important;}
 #acsw__widget .acsw__active > i {background:var(--white-color);}
 #acsw__widget .acsw__active {background-color:var(--primary-color);color:var(--white-color) !important;}
 #acsw__widget .acsw__active svg {fill:var(--white-color);}
