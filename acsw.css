@@ -404,9 +404,9 @@ input:checked + .acsw__sldr:before {
 .acsw__sldr.acsw__round:before , .rst_sldr.acsw__round:before{border-radius:50%;}
 .acsw__rnge {
     float: left;
-    width: 49%;
+    width: 47%;
     background: var(--white-color);
-    height: 45px;
+    max-height: 45px;
     text-align: center;
     color: var(--dark-color);
     display: flex;
