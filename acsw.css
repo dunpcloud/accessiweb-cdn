@@ -511,7 +511,8 @@ input#blueFilterIntensity[type='range'] {
     background-color: var(--white-color);
     transition: all .15s ease;
     color: var(--primary-color);
-    border: 1px solid #FFF;
+    border: 1px solid var(--white-color) !important;
+    border-radius:12px;
     padding: 5px;
     margin: unset;
 }
