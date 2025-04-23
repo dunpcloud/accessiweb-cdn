@@ -172,7 +172,14 @@ button#acsw__clsw {
 }
 #acsw__opnw {background: var(--white-color);}
 #acsw__clsw, .acsw__modalc {float: right;}
-.acsw__modalc {margin-bottom: 10px;}
+.acsw__modalc {
+    position: absolute;
+    top: 5px;
+    z-index: 999;
+    background: #fff !important;
+    padding: 1px;
+    filter: drop-shadow(2px 4px 6px #00000020);
+    right: 10px;}
 #acsw__chek {
     position: absolute;
     background: var(--primary-color);
