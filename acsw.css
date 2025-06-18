@@ -149,7 +149,9 @@ button#acsw__clsw {
 #accessiweb-widget-container{
     position: fixed;
     z-index: 99999999;
-	aria-live: polite;
+    aria-live: polite;
+    bottom: 0;
+    left:0;
 }
 #acsw__opnw, #acsw__clsw, .acsw__modalc {
     border-radius: 50%;
