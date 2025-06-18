@@ -192,6 +192,8 @@ button#acsw__clsw {
     justify-content: center;
     align-items: center;
 }
+#acsw__widget > * svg {width:unset; height:unset;}
+#acsw__opnw > svg {width:unset; height:unset;}
 #acsw__widget, #acsw__modal {
     position: fixed;
     top: auto;
