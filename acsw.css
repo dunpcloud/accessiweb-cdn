@@ -147,8 +147,8 @@ button#acsw__clsw {
 .w33{width:33% !important}
 .w38{width:38% !important}
 #accessiweb-widget-container{
-    position: fixed;
-    z-index: 99999999;
+    position: fixed !important;
+    z-index: 2147483647 !important;
     aria-live: polite;
 }
 #acsw__opnw, #acsw__clsw, .acsw__modalc {
@@ -196,8 +196,8 @@ button#acsw__clsw {
 #acsw__opnw > svg {width:unset; height:unset;}
 #acsw__widget, #acsw__modal {
     position: fixed;
-    top: auto;
-    bottom: 0;
+    top: auto !important;
+    bottom: 10px !important;
     padding: 0;
     background-color: var(--primary-color);
     color: var(--dark-color);
@@ -218,7 +218,7 @@ button#acsw__clsw {
     outline: 0;
     letter-spacing: 0;
     line-height: 1;
-    z-index: 2147483647;
+    z-index: 2147483647 !important;
     border: 1px solid var(--white-color);
     box-shadow: 0 10px 30px rgba(60,80,170,.1);
 }
