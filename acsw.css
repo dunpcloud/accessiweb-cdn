@@ -24,7 +24,7 @@ html {-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:sans-s
 button#acsw__clsw {
     position: sticky;
     top: -5px;
-    z-index: 999;
+    z-index: 2147483647;
     background: #fff !important;
     padding: 1px;
     filter: drop-shadow(2px 4px 6px #00000020);
@@ -175,7 +175,7 @@ button#acsw__clsw {
 .acsw__modalc {
     position: absolute;
     top: 5px;
-    z-index: 999;
+    z-index: 2147483647;
     background: #fff !important;
     padding: 1px;
     filter: drop-shadow(2px 4px 6px #00000020);
@@ -713,7 +713,7 @@ input#blueFilterIntensity[type='range'] {
 .acsw__highlight a {line-height: 3!important; }
 .acsw__attributes {
     position: absolute;
-    z-index: 999;
+    z-index: 2147483647;
     background-color: var(--white-color);
     border: 1px solid var(--dark-color);
     padding: 5px;
@@ -731,11 +731,12 @@ input#blueFilterIntensity[type='range'] {
     background:var(--primary-color);
     position:fixed;
     pointer-events:none;
-    z-index:9999;
+    z-index:2147483647;
+    display:block;
 }
 #acsw__zoom-window, #acsw__tooltip {
     position: absolute;
-    z-index: 9999999;
+    z-index: 2147483647;
     width: 400px;
     height: auto;
     background-color: var(--primary-color);
