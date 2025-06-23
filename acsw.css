@@ -657,20 +657,21 @@ input#blueFilterIntensity[type='range'] {
 }
 .acsw__kbl {
     float: left;
-    margin: 0 5px 5px 0;
-    padding: 0;
+    margin: 0 5px 5px 0 !important;
+    padding: 0 !important;
     list-style-type: unset;
-    font-size: 16px;
+    font-size: 16px !important;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 40px !important;
     text-align: center;
-    background: var(--white-color);
-	color: var(--dark-color);
+    background: var(--white-color) !important;
+    color: var(--dark-color) !important;
     border: 1px solid #f9f9f9;
     -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    -webkit-border-radius: 5px !important;
     cursor: pointer;
+    font-weight: 400 !important;
 }
 .acsw__kbl:hover, .acsw__kbl:focus {border: 1px solid var(--primary-color); background: var(--white-color); color:var(--dark-color);}
 .acsw__kbl70 {width: 70px;}
