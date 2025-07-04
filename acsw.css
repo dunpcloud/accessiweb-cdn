@@ -259,11 +259,15 @@ button#acsw__clsw {
     text-align: left;
     color: var(--dark-color);
     font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 14px;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    font-size: 14px !important;
     border: 1px solid transparent;
     text-transform: none;
+    box-shadow: none;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1;
 }
 .acsw__main > section {
     font-family: Arial,Helvetica,sans-serif !important;
@@ -528,6 +532,10 @@ input#blueFilterIntensity[type='range'] {
     padding: 5px !important;
     margin: unset;
     background-color: unset !important;
+    box-shadow: none;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1;
 }
 
 #acsw__widget .acsw__btnp:hover, #acsw__widget .acsw__btnp:focus {border:1px solid var(--primary-color) !important;outline:1px solid var(--primary-color) !important;border-radius:10px;background-color:var(--white-color) !important;}
