@@ -152,7 +152,7 @@ button#acsw__clsw {
     aria-live: polite;
 }
 #acsw__opnw, #acsw__clsw, .acsw__modalc {
-    border-radius: 50%;
+    border-radius: 50% !important;
     padding: 0;
     border: 1px solid var(--white-color);
     cursor: pointer;
@@ -268,6 +268,7 @@ button#acsw__clsw {
     transition: none !important;
     transform: none !important;
     opacity: 1;
+    visibility: visible
 }
 .acsw__main > section {
     font-family: Arial,Helvetica,sans-serif !important;
@@ -481,6 +482,10 @@ input:checked + .acsw__sldr:before {
     height: 110px;
     padding: 10px 5px;
     flex: 0 0 auto;
+    box-shadow: none;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1;
 }
 .acsw__btn4 {
     width: 100%;
