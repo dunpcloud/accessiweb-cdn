@@ -296,6 +296,8 @@ button#acsw__clsw {
     color: var(--white-color) !important;!i;!;
     text-shadow: 0 1px var(--dark-color);
     font-weight: bold;
+    font-size:18px !important;
+    maring:0 !important;	
 }
 #acsw__widget > div.acsw__main > p#h1 {
     color: var(--white-color);
