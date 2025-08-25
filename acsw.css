@@ -499,7 +499,7 @@ input:checked + .acsw__sldr:before {
     align-items: center;
 }
 /*button > svg, button > span > svg {color:var(--primary-color);}*/
-button#acsw__clsw > svg, button#ascw__reset > svg, button#acsw__btnp > svg, button#acsw__btn3 > svg, button.acsw__modalc > svg, button.acsw__kblc > svg, button#tg-blueFilter > span > svg {color:var(--primary-color);}
+button#acsw__opnw > svg, button#acsw__clsw > svg, button#ascw__reset > svg, button#ascw__doc > svg, button#acsw__btnp > svg, button.acsw__btn3 > svg, button.acsw__modalc > svg, button.acsw__kblc > svg, button#tg-blueFilter > span > svg {color:var(--primary-color);}
 #tg-blueFilter.acsw__active {padding-top:20px;padding-bottom: 30px;}
 input#blueFilterIntensity[type='range'] {
     accent-color:var(--primary-color);
