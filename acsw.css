@@ -297,7 +297,7 @@ button#acsw__clsw {
     text-shadow: 0 1px var(--dark-color);
     font-weight: bold;
     font-size:18px !important;
-    maring:0 0 1em 0 !important;
+    margin:0 0 1em 0 !important;
 	display: inline-block;
 }
 #acsw__widget > div.acsw__main > p#h1 {
