@@ -785,7 +785,7 @@ body.enlarge-cursor a {
 cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHBhdGggZD0iTTQzLjQgMjEuM2MwLS4yLS4xLTEuNS0xLjMtMi44LTEuMi0xLjQtMy4yLTIuMS01LjctMi4zLS4yLS40LS42LS44LTEuMS0xLjEtMS40LTEtMy43LTEuNi02LjUtMS43LS4yLS4zLS43LS43LTEuMi0xLTEuMy0uOS0yLjktMS40LTQuOS0xLjZ2LTVjMC0uNSAwLTIuNi0xLjQtNC4xLS43LS43LTEuOS0xLjUtNC0xLjVzLTMuNC44LTQuMSAxLjVjLTEuNCAxLjQtMS40IDMuMy0xLjQgMy44djE3LjljLTEuMi0xLjItMi42LTIuNi0zLjQtMy4xLTEuNi0xLjItNC43LS42LTYuNS43LTEuNyAxLjItMi4zIDMtMS42IDQuOCAxLjIgMy4xIDQuMSA2LjMgNC44IDcgLjcgMS4yIDMuNiA2LjQgNi4yIDguMyAxLjQgMSAyLjQgNS4xIDIuNyA3LjhsLjEgMS40aDI0LjZ2LTYuMmMuMy0uOSAxLjEtMi44IDItMy42IDItMiAyLjctNi45IDIuNy04LjNWMjEuM3oiIHN0eWxlPSJzdHJva2U6I2ZmZjtzdHJva2Utd2lkdGg6MjtzdHJva2UtbWl0ZXJsaW1pdDoxMDt0cmFuc2Zvcm06c2NhbGUoLjY0KSIvPjwvc3ZnPg==") 20 -5, auto !important;}
 .acsw-skip-link {
     position: absolute;
-    top: -40px;
+    top: -60px;
     left: 10px;
     background: var(--primary-color);
     color: var(--white-color) !important;
