@@ -792,7 +792,7 @@ cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMj
     padding: 8px 14px;
     z-index: 999999;
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 1.2rem !important;
     text-decoration: none;
     transition: top 0.2s ease-out;
 }
