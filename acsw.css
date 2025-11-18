@@ -479,7 +479,8 @@ input:checked + .acsw__sldr:before {
     letter-spacing: unset !important;
     line-height: unset !important;
     margin: unset;
-    color: var(--dark-color) !important;!i;!;
+    color: var(--dark-color) !important;
+	white-space: normal;
 }
 #acsw__widget button.acsw__btn3 {
     width: 32%;
