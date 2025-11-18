@@ -788,7 +788,7 @@ cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMj
     top: -40px;
     left: 10px;
     background: var(--primary-color);
-    color: #fff;
+    color: var(--white-color) !important;
     padding: 8px 14px;
     z-index: 999999;
     border-radius: 4px;
