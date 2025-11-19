@@ -300,7 +300,7 @@ button#acsw__clsw {
     margin:0 0 1em 0 !important;
 	display: inline-block;
 }
-#acsw__widget > div.acsw__main > p#h1 {
+#acsw__widget > div.acsw__main > p#lbl_h1 {
     color: var(--white-color);
     font-weight: bold;
     font-size: 22px;
