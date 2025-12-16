@@ -604,6 +604,12 @@ input#blueFilterIntensity[type='range'] {
     clear: both;
     content: "";    
 }
+.acsw__h[data-level="H1"] {padding-left:0rem;}
+.acsw__h[data-level="H2"] {padding-left:1rem;}
+.acsw__h[data-level="H3"] {padding-left:2rem;}
+.acsw__h[data-level="H4"] {padding-left:3rem;}
+.acsw__h[data-level="H5"] {padding-left:4rem;}
+.acsw__h[data-level="H6"] {padding-left:5rem;}
 .acsw__modal_li {
     width: 100%;
     background: var(--white-color);
