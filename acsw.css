@@ -283,7 +283,6 @@ button#acsw__clsw {
     box-shadow: 0 0 10px rgba(0,0,0,.2);
     padding: 10px;
     max-width: 100%;
-	color: var(--dark-color);
 }
 .acsw__main > section > p {
     font-family: Arial,Helvetica,sans-serif !important;
@@ -293,6 +292,7 @@ button#acsw__clsw {
     margin: 10px auto 20px 5px;
     display: block;
     width: 100%;
+	color: var(--dark-color);
 }
 .acsw__main > section > span > a {font-size:16px;}
 .acsw__main > a, .acsw__main > a:hover {
