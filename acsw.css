@@ -293,6 +293,7 @@ button#acsw__clsw {
     display: block;
     width: 100%;
 }
+.acsw__main > section > span > a {font-size:16px;}
 .acsw__main > a, .acsw__main > a:hover {
     color: var(--white-color) !important;!i;!;
     text-shadow: 0 1px var(--dark-color);
