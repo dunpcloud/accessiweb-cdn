@@ -567,7 +567,7 @@ input#blueFilterIntensity[type='range'] {
 #acsw__widget .acsw__active:hover, #acsw__widget .acsw__active:focus {color:var(--primary-color) !important;}
 #acsw__widget .acsw__active:hover svg, #acsw__widget .acsw__active:focus svg {fill:var(--primary-color) !important;}
 #acsw__widget .acsw__active:hover > .acsw__btnp {background-color:var(--white-color);}
-#lbl_blu_off {color:var(--white-color);}
+#lbl_blu_off {color:var(--dark-color);}
 #language-selector {
     display: block;
     width: 100%;
