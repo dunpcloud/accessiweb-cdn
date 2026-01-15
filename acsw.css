@@ -218,13 +218,6 @@ button#acsw__clsw {
     display: flex;
 }
 
-#accessiweb-widget-container * {
-    font-family: initial !important;
-    line-height: initial !important;
-    letter-spacing: initial !important;
-    word-spacing: initial !important;
-}
-
 #acsw__opnw,
 #acsw__clsw,
 .acsw__modalc {
