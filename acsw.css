@@ -20,19 +20,6 @@ body.acsw-font-dyslex {
     --acsw-font-family: 'OpenDyslexic', sans-serif !important;
 }
 
-body.acsw-spacing-enabled {
-    --acsw-line-height: 1.5 !important;
-    --acsw-word-spacing: 0.1em !important;
-    --acsw-letter-spacing: 0.1em !important;
-}
-
-body.acsw-active * {
-    font-family: var(--acsw-font-family);
-    line-height: var(--acsw-line-height);
-    word-spacing: var(--acsw-word-spacing);
-    letter-spacing: var(--acsw-letter-spacing);
-}
-
 @font-face {
     font-family: 'dyslexic';
     src: url('./font/OpenDyslexic-Bold.otf') format('opentype');
