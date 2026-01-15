@@ -6,6 +6,31 @@
     --white-color: #FFF;
     --dark-color: #000;
     --grey-color: #eff1f5;
+    --acsw-font-family: inherit;
+    --acsw-line-height: inherit;
+    --acsw-word-spacing: inherit;
+    --acsw-letter-spacing: inherit;
+}
+
+body.acsw-font-readable {
+    --acsw-font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body.acsw-font-dyslex {
+    --acsw-font-family: 'OpenDyslexic', sans-serif !important;
+}
+
+body.acsw-spacing-enabled {
+    --acsw-line-height: 1.5 !important;
+    --acsw-word-spacing: 0.1em !important;
+    --acsw-letter-spacing: 0.1em !important;
+}
+
+body.acsw-active * {
+    font-family: var(--acsw-font-family);
+    line-height: var(--acsw-line-height);
+    word-spacing: var(--acsw-word-spacing);
+    letter-spacing: var(--acsw-letter-spacing);
 }
 
 @font-face {
