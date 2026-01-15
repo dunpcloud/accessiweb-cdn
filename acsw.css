@@ -6,18 +6,6 @@
     --white-color: #FFF;
     --dark-color: #000;
     --grey-color: #eff1f5;
-    --acsw-font-family: inherit;
-    --acsw-line-height: inherit;
-    --acsw-word-spacing: inherit;
-    --acsw-letter-spacing: inherit;
-}
-
-body.acsw-font-readable {
-    --acsw-font-family: Arial, Helvetica, sans-serif !important;
-}
-
-body.acsw-font-dyslex {
-    --acsw-font-family: 'OpenDyslexic', sans-serif !important;
 }
 
 @font-face {
