@@ -634,6 +634,7 @@ button.acsw__btn3 {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    appearance: none;
     -webkit-appearance: none;
     cursor: pointer;
     background: var(--white-color) !important;
@@ -856,7 +857,9 @@ input#blueFilterIntensity[type='range'] {
     content: "";
 }
 
-.acsw__h[data-level="H1"] {}
+.acsw__h[data-level="H1"] {
+    padding-left: 0rem;
+}
 
 .acsw__h[data-level="H2"] {
     padding-left: 1rem;
@@ -970,6 +973,7 @@ input#blueFilterIntensity[type='range'] {
     background: var(--white-color) !important;
     color: var(--dark-color) !important;
     border: 1px solid #f9f9f9;
+    border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px !important;
     cursor: pointer;
