@@ -685,6 +685,7 @@ button.acsw__modalc>svg,
 button.acsw__kblc>svg,
 button#tg-blueFilter>span>svg {
     color: var(--primary-color);
+    fill: var(--primary-color);
 }
 
 #tg-blueFilter.acsw__active {
