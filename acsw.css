@@ -674,7 +674,6 @@ button.acsw__btn3 {
     align-items: center;
 }
 
-/*button > svg, button > span > svg {color:var(--primary-color);}*/
 button#acsw__opnw>svg,
 button#acsw__clsw>svg,
 button#ascw__reset>svg,
