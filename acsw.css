@@ -1140,3 +1140,125 @@ body.enlarge-cursor a {
     top: 10px;
     outline: 2px solid #fff;
 }
+
+#acsw__wiki-section {}
+
+.acsw__wiki-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.acsw__wiki-input {
+    flex: 1;
+    padding: 9px 12px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: var(--dark-color);
+    background: var(--white-color);
+    outline: 1px solid #ccc;
+    line-height: 1.4;
+    min-width: 0;
+    height: 40px !important;
+}
+
+.acsw__wiki-input:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 1px;
+}
+
+.acsw__wiki-btn {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--white-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: none;
+}
+
+.acsw__wiki-btn:hover,
+.acsw__wiki-btn:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 1px;
+}
+
+.acsw__wiki-btn svg {
+    fill: var(--primary-color);
+    pointer-events: none;
+}
+
+/* Area risultato */
+.acsw__wiki-result {
+    width: 100%;
+    display: none; /* mostrato via JS solo quando c'è un risultato */
+    background: var(--white-color);
+    border-radius: 10px;
+    padding: 12px 14px;
+    color: var(--dark-color);
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.acsw__wiki-result-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: var(--dark-color);
+}
+
+.acsw__wiki-result-extract {
+    margin-bottom: 10px;
+    color: var(--dark-color);
+}
+
+.acsw__wiki-result-link {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.acsw__wiki-result-link:hover,
+.acsw__wiki-result-link:focus-visible {
+    text-decoration: underline;
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+/* Stato di caricamento */
+.acsw__wiki-loading {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+    color: var(--dark-color);
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+/* Stato errore / nessun risultato */
+.acsw__wiki-error {
+    display: none;
+    background: var(--grey-color);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: var(--dark-color);
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
