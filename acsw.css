@@ -1174,7 +1174,7 @@ body.enlarge-cursor a {
 .acsw__wiki-btn {
     flex-shrink: 0;
     width: 40px;
-    height: 40px;
+    height: 38px;
     border: none;
     border-radius: 10px;
     background: var(--white-color);
@@ -1185,6 +1185,7 @@ body.enlarge-cursor a {
     justify-content: center;
     padding: 0;
     transition: none;
+    outline: 1px solid #CCC;
 }
 
 .acsw__wiki-btn:hover,
