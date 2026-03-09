@@ -1268,3 +1268,29 @@ body.enlarge-cursor a {
     width: 100%;
     box-sizing: border-box;
 }
+
+.acsw__wiki-result-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    gap: 8px;
+}
+
+.acsw__wiki-close {
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+.acsw__wiki-close:hover,
+.acsw__wiki-close:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 1px;
+}
