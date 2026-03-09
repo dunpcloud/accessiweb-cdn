@@ -7,7 +7,7 @@
     --dark-color: #000;
     --grey-color: #eff1f5;
 }
-
+[data-acsw-tts] {cursor: pointer;}
 @font-face {
     font-family: 'dyslexic';
     src: url('./font/OpenDyslexic-Bold.otf') format('opentype');
