@@ -1171,6 +1171,11 @@ body.enlarge-cursor a {
     outline-offset: 1px;
 }
 
+.acsw__wiki-input::placeholder {
+    color: var(--primary-color);
+    opacity: 0.6;
+}
+
 .acsw__wiki-btn {
     flex-shrink: 0;
     width: 40px;
