@@ -218,11 +218,13 @@ button#acsw__clsw {
     display: flex;
 }
 
+#acsw__clsw,.acsw__modalc {border-radius: 50% !important;}
+
 #acsw__opnw,
 #acsw__clsw,
 .acsw__modalc {
-    border-radius: 50% !important;
-    padding: 0;
+    border-radius: 50%;
+	padding: 0;
     border: 1px solid var(--white-color);
     cursor: pointer;
     display: inline-flex;
@@ -241,7 +243,7 @@ button#acsw__clsw {
 }
 
 #acsw__opnw {
-    background: var(--white-color);
+    background: var(--primary-color) !important;
 }
 
 #acsw__clsw,
@@ -277,9 +279,21 @@ button#acsw__clsw {
     height: unset;
 }
 
-#acsw__opnw>svg {
+button#acsw__opnw>svg {
     width: unset;
     height: unset;
+	color: var(--white-color);
+	fill: var(--white-color);
+}
+#acsw__opnw.acsw__shape-square,
+#acsw__opnw.acsw__shape-rounded {
+    background: var(--primary-color) !important;
+    padding: 10px !important;
+}
+#acsw__opnw.acsw__shape-square > svg,
+#acsw__opnw.acsw__shape-rounded > svg {
+    color: var(--white-color) !important;
+    fill: var(--white-color) !important;
 }
 
 #acsw__widget,
@@ -634,7 +648,6 @@ button.acsw__btn3 {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    appearance: none;
     -webkit-appearance: none;
     cursor: pointer;
     background: var(--white-color) !important;
@@ -674,7 +687,7 @@ button.acsw__btn3 {
     align-items: center;
 }
 
-button#acsw__opnw>svg,
+/*button > svg, button > span > svg {color:var(--primary-color);}*/
 button#acsw__clsw>svg,
 button#ascw__reset>svg,
 button#ascw__doc>svg,
@@ -682,10 +695,9 @@ button#acsw__btnp>svg,
 button.acsw__btn3>svg,
 button.acsw__modalc>svg,
 button.acsw__kblc>svg,
-button.acsw__btnp>svg,
 button#tg-blueFilter>span>svg {
     color: var(--primary-color);
-    fill: var(--primary-color);
+	fill: var(--primary-color);
 }
 
 #tg-blueFilter.acsw__active {
@@ -858,9 +870,7 @@ input#blueFilterIntensity[type='range'] {
     content: "";
 }
 
-.acsw__h[data-level="H1"] {
-    padding-left: 0rem;
-}
+.acsw__h[data-level="H1"] {}
 
 .acsw__h[data-level="H2"] {
     padding-left: 1rem;
@@ -974,7 +984,6 @@ input#blueFilterIntensity[type='range'] {
     background: var(--white-color) !important;
     color: var(--dark-color) !important;
     border: 1px solid #f9f9f9;
-    border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px !important;
     cursor: pointer;
@@ -1190,7 +1199,7 @@ body.enlarge-cursor a {
     justify-content: center;
     padding: 0;
     transition: none;
-    outline: 1px solid #CCC;
+	outline: 1px solid #ccc;
 }
 
 .acsw__wiki-btn:hover,
