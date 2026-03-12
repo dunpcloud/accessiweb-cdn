@@ -1242,7 +1242,7 @@ body.enlarge-cursor a {
 .acsw__wiki-result-link {
     display: inline-block;
     font-size: 13px;
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
     text-decoration: none;
     font-weight: bold;
 }
@@ -1302,4 +1302,6 @@ body.enlarge-cursor a {
 .acsw__wiki-close:focus-visible {
     outline: 2px solid var(--primary-color);
     outline-offset: 1px;
+	background: none;
+    color: var(--primary-color);
 }
