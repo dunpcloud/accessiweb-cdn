@@ -236,8 +236,8 @@ button#acsw__clsw {
     background: unset;
     margin: unset;
     letter-spacing: unset;
-    min-width: unset;
-    min-height: unset;
+    min-width: 0;
+    min-height: 0;
     background: var(--white-color);
     transition: none;
 }
@@ -275,13 +275,13 @@ button#acsw__clsw {
 }
 
 #acsw__widget>* svg {
-    width: unset;
-    height: unset;
+    min-width: 0;
+    min-height: 0;
 }
 
 button#acsw__opnw>svg {
-    width: unset;
-    height: unset;
+    min-width: 0;
+    min-height: 0;
 	color: var(--white-color);
 	fill: var(--white-color);
 }
